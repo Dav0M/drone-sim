@@ -6,6 +6,8 @@ As a team, we practiced agile development while using Jira to manage our tasks a
 
 [Demo Video](https://youtu.be/4glJjDvvXKY) (might be dead link)
 
+<div align="center"><img src="images/dronesim_zoom.gif" width="200" /></div>
+
 ## Overview
 
 This project simulates a delivery service within the UMN campus, orchestrated by a drone and scheduled by the user. On the scheduling page, the user can schedule a package's starting point and destination, while also choosing a path strategy (Astar, BFS, DFS, Beeline, or Dijkstra) that the drone will exclusively follow to reach its destination (the robot). The user can choose which entity (drone, package, robot, helicopter or human) to track at any given time, as well as speeding up or slowing down the simulation. The user also has the opportunity to subscribe and unsubscribe from delivery notifications, as well as add as many random pedestrians within the simulation. The project also tracks entity data from the simulation which is output to the SimulationData.csv file in the root folder.
@@ -26,3 +28,9 @@ This project simulates a delivery service within the UMN campus, orchestrated by
 - Provides interactive web simulation
     - View and follow specific entities
     - Handles simulation time/speed
+
+## Images
+
+![Drone simulation on start](images/dronesim_fresh.png)
+![Drone schedule page](images/dronesim_schedule.png)
+![Drone simulation in progress](images/dronesim_progress.png)
